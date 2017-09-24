@@ -5,9 +5,7 @@
 <!-- 	<meta name="renderer" content="webkit">  -->
 	<meta name="viewport" content="width=100%, initial-scale=1" />
 	<title>何文浩的个人简介</title>
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">s
 	<link rel="stylesheet" href="css/animate.min.css">
 	<script src="js/jquery-1.8.3.min.js"></script>
 	<script src="js/navFixed-1.0.1.min.js"></script>
@@ -30,12 +28,11 @@
 	    <div id="pagepiling">
             <div class="blockTitle">
                 <img id="myphoto" src="img/myphoto.jpg" />
-                <h1>何文浩</h1>
+                <h1 class="animated flash">何文浩</h1>
                 <h2>上海大学 计算机专业</h2>
                 <h3>一个初出茅庐的大学生 · 立志成为前端工程师</h3>
             </div>
         </div>    
-<!-- 		<p class="blockTitle animated flash">Hello World</p> -->
 		<div id="fstPage-down"><a href="#Page2" hideFocus="true"></a></div>
 	</section>
 
@@ -70,13 +67,14 @@
 					<li><span>专业</span> | 计算机科学与技术</a>
 					<li><span>绩点</span> | 3.37/4.0</li>
 					<li><span>排名</span> | 38/291</li>
+					<li><span>荣誉</span> | 两次获得 学业优秀奖学金</li>
 					<li><span>GitHub</span> | <a href="https://github.com/hewenhao-hwh" hideFocus="true">https://github.com/hewenhao-hwh</a> </li>
 				</ul>
 				<div class="fr">
-					<p>半年前端开发经验，熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用 jQuery 框架，曾经团队开发过多个软件项目。<br>
-						有良好的编码习惯。<br>
-						会JAVA、Python、C++，对服务器端开发有一定了解，能够配合后端程序员完成相关工作。<br>
-						熟悉 MySQL、SQLServer；理解基本的算法分析与数据结构，以及面向对象的设计模式。
+					<p>
+					1.有一年左右的前端开发经验，熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用 jQuery 框架，有良好的编码习惯，曾经团队开发过多个JAVAEE软件项目，单独用asp.net开发过网站。<br>
+					2.会JAVA、Python、C++，对后端开发有一定了解，能够配合后端程序员完成接口调式等相关工作。<br>
+					3.熟悉 MySQL、SQLServer；理解基本的算法分析与数据结构，以及面向对象的设计模式。
 					</p>
 				</div>
 			</div>
@@ -87,7 +85,7 @@
 
 	<section id="Page3">
 		<div class="container">
-			<div class="skill-title">
+			<div class="title">
 				<h2>专 业 技 能</h2>
 			</div>
 			<div class="skills">
@@ -114,34 +112,18 @@
 					<li>Apache</li>
 					<li>Ps/Ai</li>
 				</ul>
+				<ul class="skill-tech">
+					<li>开发平台</li>
+					<li>JavaEE</li>
+					<li>asp.net</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 
 	<section id="Page4">
 		<div class="container">
-			<div class="work-title">
-				<h2>工 作 经 历</h2>
-			</div>
-			<div class="workEXP-main">
-				<ul class="timebox">
-					<li class="time0">2017.06 - 至今</li>
-				</ul>
-				<div ></div><!-- class="timeline" -->
-				<ul class="workbox">
-					<li class="work-intro0">
-						<label class="work-place">麦肯光明广告有限公司</label>
-						<label class="work-position">技术部实习生</label>
-						<label class="work-do"></label>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
-	<section id="Page5">
-		<div class="container">
-			<div class="prjEXP-title">
+			<div class="title">
 				<h2>项 目 经 验</h2>
 			</div>
 			<ul class="prjs">
@@ -153,7 +135,7 @@
 
 				<li class="prj" id="prj-navFixed">
 					<div class="prj-logo"></div>
-					<h3 class="prj-title"><a href="http://navfixed.jasinyip.com" target="_blank">住院病人医疗数据分析系统</a></h3>
+					<h3 class="prj-title">住院病人医疗数据分析系统</h3>
 					<p class="prj-intro">住院病人医疗数据分析系统旨在统筹繁杂的医疗数据记录，通过聚类算法，给予医生和病人治疗方案、用药方案、价格预估的参考，框架使用SSM架构。</p>
 				</li>
 
@@ -166,6 +148,34 @@
 		</div>
 	</section>
 
+	<section id="Page5">
+		<div class="container">
+			<div class="title">
+				<h2>工 作 经 历</h2>
+			</div>
+			<div class="workEXP-main">
+				<ul class="timebox">
+					<li class="time0">2017.06 - 至今</li>
+				</ul>
+				<div ></div><!-- class="timeline" -->
+				<ul class="workbox">
+					<li class="work-intro0">
+						<label class="work-place">麦肯光明广告有限公司</label>
+						<label class="work-position">技术部实习生</label>
+						<label class="work-position">参与了 京东骁龙活动页面、杭州H5、工行买单吧、拜耳ipad科普资料 的制作</label>
+						<label class="work-do">主要工作：<br>
+						                       1.负责前端pc网页、ipad、手机微信端、手机浏览器端网页制作，html、css、js的编写<br>
+                                               2.使用PS/AI对设计稿进行修改、裁切或处理<br>
+                                               3.负责部门日常项目记录管理、打包管理<br>
+                                               4.负责在不同平台上测试产品<br>
+                                               5.负责提供技术支持<br>
+                        </label>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
 	<section id="Page6">
 		<div class="container">
 			<div class="title">
@@ -175,6 +185,7 @@
 			            <li><span>姓名</span> | 何文浩</li>
 			            <li><span>手机</span> | 13621833156</li>
 			            <li><span>邮箱</span> | 28210631@qq.com</a></li>
+			            <li><span>邮箱</span> | hwh13621833156@163.com</a></li>
 			            <li><span>qq</span> | 28210631</li>
 			            <li><span>GitHub</span> | <a href="https://github.com/hewenhao-hwh" hideFocus="true">https://github.com/hewenhao-hwh</a> </li>
 				    </ul>

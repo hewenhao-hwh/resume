@@ -1,8 +1,14 @@
 /* public */
 section{width:100%; overflow: hidden;}
 .container{margin:0 auto; width:1140px; height:100%;z-index:0;}
-h2 {font-size:46px; font-weight:normal;}
-
+*{margin:0;padding:0;font-family:"Microsoft YaHei"}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+li{list-style:none;}
+a{text-decoration:none; color:white;}
+h2 {font-size:46px;}
+.fl{float:left;}
+.fr{float:right;}
 /* first page */
 #Page1{height:700px; width:100%; background-color: #22c3aa; font-size: 100px; color:white; text-align: center;}
 #Page1 .blockTitle{display:block; top:30%; position:absolute; margin:0 auto; width:100%; text-align:center;
@@ -13,6 +19,7 @@ h2 {font-size:46px; font-weight:normal;}
 #Page1 h1 {
 	text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;
 	font-size:100px;
+	margin: 0 0 0 0;
 }
 #Page1  h2 {
 	color:#008a75;
@@ -26,7 +33,7 @@ h2 {font-size:46px; font-weight:normal;}
 	margin-top: 5px;
 }
 #myphoto {
-	width:150px;
+	width:140px;
 	height:180px;
 	border:10px solid #aee2d9;
 	-webkit-border-radius:50%;
@@ -44,7 +51,7 @@ h2 {font-size:46px; font-weight:normal;}
 #logo{display: inline-block;}
 
 /* Page2 */
-#Page2 {height:700px; width:100%; background-color:#1889C5; padding:60px 0 100px;}
+#Page2 {height:700px; width:100%; background-color:#FF7F50; padding:60px 0 100px;}
 #intro-icon  {height:300px; width:100%; line-height:300px;}
 .link        {display:inline-block; height:100px; width:100px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
 .link:hover  {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
@@ -62,8 +69,8 @@ h2 {font-size:46px; font-weight:normal;}
 #intro-text>div>p {margin-bottom:26px;}
 
 /* Page3 */
-#Page3 {height:700px; width:100%; background-color:#9C58B6; color:#FFFFFF; padding-bottom:160px; }
-#Page3 .skill-title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
+#Page3 {height:700px; width:100%; background-color:#9400D3; color:#FFFFFF; padding-bottom:160px; }
+#Page3 .title {width:300px; margin:0 auto; padding-top:100px; text-align:center;}
 #Page3 .skills {height:auto; width:auto;}
 #Page3 ul {display:inline-block; height:auto; width:210px; margin:80px 0 0 56px; border:2px solid #FFFFFF; font-size:20px; font-family:"Microsoft YaHei light"; text-align: center; vertical-align: top;}
 #Page3 li {height:36px; line-height:36px;}
@@ -71,34 +78,34 @@ h2 {font-size:46px; font-weight:normal;}
 #Page3 li:hover{background-color:#FFFFFF; color:#333; cursor:default;}
 
 /* Page4 */
-#Page4 {height:700px; width:100%; background-color:#26B1B6; color:#e7e7e7;padding:160px 0}
-#Page4 .work-title {width:300px; margin:0 auto; text-align:center;}
-#Page4 .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
-#Page4 .timebox {margin-left:194px; font-size:29px;}
-#Page4 .timebox li{display:inline-block; margin-top:5px;}
-#Page4 .time1 {margin-left:110px}
-#Page4 .timeline {height:27px; width:868px; margin-left:42px; background:url(../img/timeline.png) no-repeat center;}
-#Page4 .workbox  {margin-left:194px;}
-#Page4 .workbox li{display:inline-block; width:310px; vertical-align: top;}
-#Page4 .workbox li label{display:block;}
-#Page4 .workbox .work-place {font-size:26px; font-weight:bold}
-#Page4 .workbox .work-position {font-size:20px;}
-#Page4 .workbox .work-do {margin-top:10px; font-size:16px;}
+#Page4 {padding:50px 0 200px; width:100%; background-color:#129DE7; color:#FFFFFF;}
+#Page4 .title {width:300px; margin:30px auto; text-align:center;}
+#Page4 .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;}
+#Page4 .prj {float:left; height:auto; width:240px; margin-left:105px;}
+#Page4 .prj .prj-logo {display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
+#Page4 .prj .prj-title {height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
+#Page4 .prj .prj-intro {height:auto; width:240px; font-size:20px; text-indent:1em}
+#Page4 #prj-helpmechoose .prj-logo   {background:#ED6461 url(../img/helpmechoose.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page4 #prj-navFixed .prj-title a:hover{border-bottom:3px solid white;}
+#Page4 #prj-navFixed .prj-logo       {background:#9C58B6 url(../img/navFixed.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page4 #prj-integralSystem .prj-logo {background:#16CC70 url(../img/integralSystem.png) no-repeat center; border:4px solid #FFFFFF;}
 
 /* Page5 */
-#Page5 {padding:50px 0 200px; width:100%; background-color:#129DE7; color:#FFFFFF;}
-#Page5 .prjEXP-title {width:300px; margin:30px auto; text-align:center;}
-#Page5 .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;}
-#Page5 .prj {float:left; height:auto; width:240px; margin-left:105px;}
-#Page5 .prj .prj-logo {display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
-#Page5 .prj .prj-title {height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
-#Page5 .prj .prj-intro {height:auto; width:240px; font-size:20px; text-indent:1em}
-#Page5 #prj-helpmechoose .prj-logo   {background:#ED6461 url(../img/helpmechoose.png) no-repeat center; border:4px solid #FFFFFF;}
-#Page5 #prj-navFixed .prj-title a:hover{border-bottom:3px solid white;}
-#Page5 #prj-navFixed .prj-logo       {background:#9C58B6 url(../img/navFixed.png) no-repeat center; border:4px solid #FFFFFF;}
-#Page5 #prj-integralSystem .prj-logo {background:#16CC70 url(../img/integralSystem.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page5 {height:700px; width:100%; background-color:#26B1B6; color:#e7e7e7;padding:160px 0}
+#Page5 .title {width:300px; margin:0 auto; text-align:center;}
+#Page5 .workEXP-main {height:auto; width:auto; margin:100px 0 0 60px;}
+#Page5 .timebox {margin-left:194px; font-size:29px;}
+#Page5 .timebox li{display:inline-block; margin-top:5px;}
+#Page5 .time1 {margin-left:110px}
+#Page5 .timeline {height:27px; width:868px; margin-left:42px; background:url(../img/timeline.png) no-repeat center;}
+#Page5 .workbox  {margin-left:194px;}
+#Page5 .workbox li{display:inline-block; width:700px; vertical-align: top;}
+#Page5 .workbox li label{display:block;}
+#Page5 .workbox .work-place {font-size:36px; font-weight:bold；margin-top:40px;}
+#Page5 .workbox .work-position {font-size:20px;margin-top:10px;}
+#Page5 .workbox .work-do {margin-top:30px; font-size:16px;}
 
-/* block-wantMore */
+/* Page6 */
 #Page6 {height:700px; width: 100%; background-color:#ED6461; color:#fff;}
 #Page6 .title {width:600px; margin:300px auto; }
 #Page6 .content{margin: 80px 0 0 50px;}
