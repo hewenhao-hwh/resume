@@ -82,13 +82,13 @@ h2 {font-size:46px;}
 #Page4 .title {width:300px; margin:30px auto; text-align:center;}
 #Page4 .prjs {height:auto; width:100%; margin-top:100px; overflow:hidden;}
 #Page4 .prj {float:left; height:auto; width:240px; margin-left:105px;}
-#Page4 .prj .prj-logo {display:block; margin:0 auto; height:180px; width:180px; border-radius:50%;}
+#Page4 .prj .prj-logo {display:block; margin:0 auto; height:200px; width:200px; border-radius:50%;}
 #Page4 .prj .prj-title {height:auto; width:240px; margin:20px 0; font-size:26px; text-align:center;}
 #Page4 .prj .prj-intro {height:auto; width:240px; font-size:20px; text-indent:1em}
-#Page4 #prj-helpmechoose .prj-logo   {background:#ED6461 url(../img/helpmechoose.png) no-repeat center; border:4px solid #FFFFFF;}
-#Page4 #prj-navFixed .prj-title a:hover{border-bottom:3px solid white;}
-#Page4 #prj-navFixed .prj-logo       {background:#9C58B6 url(../img/navFixed.png) no-repeat center; border:4px solid #FFFFFF;}
-#Page4 #prj-integralSystem .prj-logo {background:#16CC70 url(../img/integralSystem.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page4 #prj1 .prj-logo   {background:url(../img/shu+.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page4 #prj2 .prj-title a:hover{border-bottom:3px solid white;}
+#Page4 #prj2 .prj-logo   {background:url(../img/hos.png) no-repeat center; border:4px solid #FFFFFF;}
+#Page4 #prj3 .prj-logo {background:url(../img/integralSystem.png) no-repeat center; border:4px solid #FFFFFF;}
 
 /* Page5 */
 #Page5 {height:700px; width:100%; background-color:#26B1B6; color:#e7e7e7;padding:160px 0}
