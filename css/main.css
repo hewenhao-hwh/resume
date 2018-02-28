@@ -26,22 +26,21 @@ h2 {font-size:46px;}
 #logo{display: inline-block;}
 
 /* Page2 */
-#Page2 {height:700px; width:100%; background-color:#FF7F50; padding:60px 0 100px;}
+#Page2 {height:630px; width:100%; background-color:#FF7F50; padding:60px 0 100px;}
+#Page2 .container{margin-top: 70px;}
 #intro-icon  {height:300px; width:100%; line-height:300px;}
 .link        {display:inline-block; height:100px; width:100px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
 .link:hover  {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
-#link-github   {background:url(../img/github.png) no-repeat center; margin-left:76px;}
-#link-linkedin {background:url(../img/linkedin.png) no-repeat center; margin-left:76px;}
 #myPhoto       {height:270px; width:270px; display:inline-block; margin:0 0 0 78px;}
 #link-blog     {background:url(../img/blog.png) no-repeat center; margin-left:78px;}
 #link-email    {background:url(../img/email.png) no-repeat center; margin-left:76px;}
 #intro-text    {display:inline-block; margin:80px 0 0 0; color:white;}
-#intro-text li {height:30px;}
+#intro-text li {height:30px;font-size: 20px;}
 #intro-text ul li a {display:inline-block;}
 #intro-text ul li a:hover {border-bottom:2px solid white;}
 #intro-text ul li span {display:inline-block; text-align:right; width:70px;}
-#intro-text div {display:inline-block; width:600px; margin-left:120px;}
-#intro-text>div>p {margin-bottom:26px;}
+#intro-text div {display:inline-block; width:600px; margin-left:60px;}
+#intro-text>div>p {margin-bottom:26px;font-size: 20px;}
 
 /* Page3 */
 #Page3 {height:700px; width:100%; background-color:#9400D3; color:#FFFFFF; padding-bottom:160px; }
@@ -75,11 +74,12 @@ h2 {font-size:46px;}
 #Page5 .workbox li{display:inline-block; width:700px; vertical-align: top;}
 #Page5 .workbox li label{display:block;}
 #Page5 .workbox .work-place {font-size:36px; font-weight:bold；margin-top:40px;}
-#Page5 .workbox .work-position {font-size:20px;margin-top:10px;}
-#Page5 .workbox .work-do {margin-top:30px; font-size:16px;}
+#Page5 .workbox .work-position {font-size:22px;margin-top:10px;}
+#Page5 .workbox .work-do {margin-top:30px; font-size:19px;}
+#Page5 .workbox .work-intro0 {width:90%;}
 
 /* Page6 */
 #Page6 {height:700px; width: 100%; background-color:#ED6461; color:#fff;}
 #Page6 .title {width:600px; margin:300px auto; }
-#Page6 .content{margin: 80px 0 0 50px;}
+#Page6 .content{margin: 80px 0 0 50px;font-size:20px;}
 
