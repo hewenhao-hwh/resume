@@ -9,7 +9,7 @@ a{text-decoration:none; color:white;}
 h2 {font-size:46px;}
 .fl{float:left;}
 .fr{float:right;}
-/* first page */
+/* Page1 */
 #Page1{height:700px; width:100%; background-color: #22c3aa; font-size: 100px; color:white; text-align: center;}
 #Page1 .blockTitle{display:block; top:30%; position:absolute; margin:0 auto; width:100%; text-align:center;-webkit-animation-delay: 1.5s;-webkit-animation-iteration-count: 1.5;/*-webkit-animation-iteration-count: infinite;*/}
 #Page1 h1 {text-shadow:1px 2px #22c3aa,2px 4px #aee2d9;font-size:100px;margin: 0 0 0 0;}
